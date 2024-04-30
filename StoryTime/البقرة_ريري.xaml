@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoryTime.البقرة_ريري"
+             Title="البقرة_ريري">
+    <VerticalStackLayout>
+        <StackLayout>
+            <StackLayout HorizontalOptions="CenterAndExpand">
+                <Label x:Name="pages" Text="الصفحة" HorizontalOptions="Center" Margin="10" />
+            </StackLayout>
+            <!-- Image to display the story -->
+            <Image x:Name="a" Source="Resources/Images/cow.png" HeightRequest="550" WidthRequest="300"  />
+
+            <!-- Navigation buttons -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button  x:Name="prev" Text="الرجوع" Clicked="prev_Clicked" Margin="40,0" Padding="10"/>
+
+                <Button x:Name="nex" Text="اقرأ" Clicked="nex_Clicked" Margin="50,0" />
+
+
+
+            </StackLayout>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

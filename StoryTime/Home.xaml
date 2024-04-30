@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoryTime.Home"
+        Title="وقت القصة"
+    BackgroundColor="#4B0082">
+    <VerticalStackLayout>
+        <Image x:Name="i1" Source="Resources/Images/photofist.png" HeightRequest="300"
+            Margin="20"
+          />
+        <!-- Replace "storybook_image.jpg" with your image source -->
+
+        <Label 
+         Text="مرحبًا بكم في وقت القصة!" 
+         TextColor="White" 
+         FontSize="Large"
+         VerticalOptions="Center" 
+         HorizontalOptions="Center" />
+
+        <Label 
+         Text="دع خيالك يحلق بعيدًا وانطلق في مغامرات سحرية عبر صفحات قصصنا!" 
+         TextColor="White"
+         FontSize="Medium"
+         HorizontalTextAlignment="Center"
+         Margin="20"/>
+        <Button x:Name="onclick"  
+         Text="دخول" 
+         Margin="50,50,50,0"
+         Clicked="onclick_Clicked"/>
+
+
+
+
+
+    </VerticalStackLayout>
+</ContentPage>

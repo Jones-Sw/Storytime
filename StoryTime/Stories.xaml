@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoryTime.Stories"
+             Title="قصص">
+    <VerticalStackLayout>
+        <!-- Title of the Page -->
+        <Label Text="" FontSize="Large" HorizontalOptions="Center" Margin="0,20,0,10" />
+
+        <!-- First Story -->
+        <StackLayout Orientation="Vertical" Margin="10,0">
+            <Image x:Name="a1" Source="Resources/Images/cow.png" HeightRequest="150" WidthRequest="150">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Text="البقرة ريري" HorizontalOptions="Center" />
+        </StackLayout>
+
+        <!-- Second Story -->
+        <StackLayout Orientation="Vertical" Margin="10,0">
+            <Image x:Name="a2" Source="Resources/Images/catss.png" HeightRequest="150" WidthRequest="150">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Text="يحيا العدل" HorizontalOptions="Center" />
+        </StackLayout>
+
+        <!-- Third Story -->
+        <StackLayout Orientation="Vertical" Margin="10,0">
+            <Image x:Name="a3" Source="Resources/Images/big.png" HeightRequest="150" WidthRequest="150">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Text="العملاق الشقي وملك الأقزام" HorizontalOptions="Center" />
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>
