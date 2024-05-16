@@ -7,6 +7,7 @@
         <StackLayout>
             <StackLayout HorizontalOptions="CenterAndExpand">
                 <Label x:Name="pages" Text="الصفحة" HorizontalOptions="Center" Margin="10" />
+                
             </StackLayout>
             <!-- Image to display the story -->
             <Image x:Name="a" Source="Resources/Images/cow.png" HeightRequest="550" WidthRequest="300"  />

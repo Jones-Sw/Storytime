@@ -3,12 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="StoryTime.العملاق_الشقي_وملك_الأقزام"
              Title="العملاق_الشقي_وملك_الأقزام">
+    
     <VerticalStackLayout>
         <StackLayout>
             <StackLayout HorizontalOptions="CenterAndExpand">
                 <Label x:Name="pages" Text="الصفحة" HorizontalOptions="Center" Margin="10" />
+                <Button x:Name="Voice" Text="الصوت" Clicked="Voice_Clicked" Margin="50,0" />
             </StackLayout>
-            <!-- Image to display the story -->
+         
+                <!-- Image to display the story -->
             <Image x:Name="a" Source="Resources/Images/big.png" HeightRequest="550" WidthRequest="300"  />
 
             <!-- Navigation buttons -->
